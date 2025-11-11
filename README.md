@@ -5,20 +5,14 @@ A production-ready, containerized machine learning training pipeline for fine-tu
 ## Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
 - [Quick Start](#quick-start)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Cloud Deployment](#cloud-deployment)
 - [Results](#results)
-- [Development](#development)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
-## 🎯 Overview
+## Overview
 
 This project tackles the paraphrase detection problem using the MRPC dataset from the GLUE benchmark. The model determines whether two sentences are semantic paraphrases of each other.
 
