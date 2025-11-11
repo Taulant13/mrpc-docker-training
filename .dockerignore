@@ -1,0 +1,42 @@
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebooks & checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Model outputs / checkpoints
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# Data files
+data/
+datasets/
+*.csv
+*.json
+*.zip
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
