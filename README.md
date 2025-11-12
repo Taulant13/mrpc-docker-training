@@ -103,7 +103,7 @@ docker run --rm mrpc-training python train.py --help
 
 ### Default Hyperparameters
 
-Optimized through manual hyperparameter search:
+Optimized through manual hyperparameter tuning:
 
 | Parameter | Default Value | Description |
 |-----------|---------------|-------------|
@@ -117,10 +117,6 @@ Optimized through manual hyperparameter search:
 | `--seed` | 42 | Random seed for reproducibility |
 
 ### All Available Arguments
-
-**Model Arguments:**
-- `--model_name_or_path`: Pretrained model (default: distilbert-base-uncased)
-- `--task_name`: GLUE task (default: mrpc)
 
 **Training Arguments:**
 - `--learning_rate, --lr`: Learning rate
@@ -153,11 +149,10 @@ Optimized through manual hyperparameter search:
 
 ### GitHub Codespaces
 
-**Best for:** Development and testing with 60 free hours/month
 ```bash
 # 1. Go to your GitHub repository
 # 2. Click "Code" → "Codespaces" → "Create codespace on main"
-# 3. Wait for environment to load (2-3 minutes)
+# 3. Wait for environment to load
 
 # 4. In the Codespaces terminal:
 export WANDB_API_KEY=your_api_key
@@ -178,7 +173,7 @@ docker run --rm -e WANDB_API_KEY=$WANDB_API_KEY mrpc-training
 | **Validation Accuracy** | 85.29%
 | **F1 Score** | 89.23%
 | **Validation Loss** | 0.4089
-| **Training Time (CPU)** | ~28 minutes | 3 epochs, batch size 32 |
+| **Training Time (CPU)** | ~37 minutes | 3 epochs, batch size 32 |
 
 
 ### Code Structure
