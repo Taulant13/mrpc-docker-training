@@ -63,7 +63,7 @@ docker run --rm mrpc-training python train.py --help
 ### Verify Docker Installation
 ```bash
 docker --version
-# Should output: Docker version 20.10.x or higher
+# Should output: Docker version...
 ```
 
 ### Get Your W&B API Key
